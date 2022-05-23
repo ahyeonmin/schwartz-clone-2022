@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
+@keyframes slide {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 5px;
+  }
+}
+
 body {
     width: 100%;
     height: 100vh;
@@ -66,6 +75,10 @@ main, footer{
   font-weight: 400;
 }
 
+.news span:hover {
+  animation: slide 0.2s linear both;
+}
+
 .news__view {
   display: flex;
   align-items: center;
@@ -119,6 +132,12 @@ main, footer{
   margin-right: 5px;
   font-size: 15px;
   font-weight: 500;
+}
+
+a:hover {
+  transition: all ease 0.4s 0s;
+  background-color: black;
+  color: white;
 }
 
 .lines {
