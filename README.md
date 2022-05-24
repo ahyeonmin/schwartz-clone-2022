@@ -2,5 +2,5 @@
 
 ## Css Layout Clone
 
-### Capture
+### Screen
 <img src="https://user-images.githubusercontent.com/83111413/169887119-c933668d-f7b8-4528-8400-d114566f52bc.png" style="width: 900px"/>
